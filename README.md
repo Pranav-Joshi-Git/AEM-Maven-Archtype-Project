@@ -2,6 +2,10 @@
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
+### Command to run AEM instance in debug mode:
+
+`java -Xdebug -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8888 -jar aem-author-p4502.jar`
+
 ## Modules
 
 The main parts of the template are:
